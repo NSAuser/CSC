@@ -528,7 +528,7 @@ a.button {
 }
 
 .button:hover {
-  color: #0000A0;
+  color: #cccccc;
 }
 
 a.button small {
