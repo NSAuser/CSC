@@ -526,6 +526,11 @@ a.button {
   line-height: 1.2;
   color: #fff;
 }
+
+.button:hover {
+  color: #0000A0;
+}
+
 a.button small {
   display: block;
   font-size: 11px;
