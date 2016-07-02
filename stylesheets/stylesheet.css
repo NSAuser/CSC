@@ -249,7 +249,7 @@ samp {
  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
  */
 
-buttontar,
+button,
 input,
 optgroup,
 select,
@@ -263,7 +263,7 @@ textarea {
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
 
-buttontar {
+button {
   overflow: visible;
 }
 
@@ -274,7 +274,7 @@ buttontar {
  * Correct `select` style inheritance in Firefox.
  */
 
-buttontar,
+button,
 select {
   text-transform: none;
 }
@@ -287,7 +287,7 @@ select {
  *    `input` and others.
  */
 
-buttontar,
+button,
 html input[type="button"], /* 1 */
 input[type="reset"],
 input[type="submit"] {
@@ -299,7 +299,7 @@ input[type="submit"] {
  * Re-set default cursor for disabled elements.
  */
 
-buttontar[disabled],
+button[disabled],
 html input[disabled] {
   cursor: default;
 }
@@ -308,18 +308,10 @@ html input[disabled] {
  * Remove inner padding and border in Firefox 4+.
  */
 
-buttontar::-moz-focus-inner,
+button::-moz-focus-inner,
 input::-moz-focus-inner {
   padding: 0;
   border: 0;
-}
-
-buttontar :hover {
-  color: #00C;
-}
-
-buttontzip :hover {
-  color: #00C;
 }
 
 /**
