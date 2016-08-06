@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Login</title>
+	<meta charset="utf-8">
+	<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+	<link rel="shortcut icon" href="images/czaricon.ico">
+</head>
+
+<body>
+	<div style="min-width: 960px; margin: 0 auto;">
+		<div class="holding level0">
+			<div id="topbar" class="clear">
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="#">Contact Us</a></li>
+						<li><a href="login.html">Login</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<div class="holding level1">
+			<header id="header" class="clear">
+				<div id="logo" class="con_left">
+					<h1><a href="index.html">Cyber Czar Corp.</a></h1>
+					<p>Cyber-Security Consultation Firm</p>
+				</div>
+				<div class="con_right">
+					<div>
+						<fieldset>
+							<legend>Search:</legend>
+							<div class="formDIV">
+								<input type="text" id="serchbor" placeholder="Search">
+								<button class="serchbar" type="submit" onclick="searchegg()" title="Search"><em>Search</em></button>
+							</div>
+						</fieldset>
+					</div>
+				</div>
+			</header>
+		</div>
+		<br>
+		<div class="holding level3">
+			<div id="borderbotadd">
+				<div class="roundlog">
+					<h1 class="logtitle" align="left">User Login</h1>
+					<br>
+					<br>
+					<div id="remload">
+						<p id="userp">Username: </p><input type="text" id="loguser" maxlength="18">
+						<p class="valCheckUser">*</p>
+						<br>
+						<img id="logLogo" src="images/cyberczarlogo.PNG">
+						<br>
+						<p id="passp">Password: </p><input type="password" id="logpass" maxlength="50">
+						<p class="valCheckPass">*</p>
+						<img class="captcha" src="images/captcha.gif">
+						<input id="captchatext" type="text" placeholder="CAPTCHA" required>
+						<input id="stayLogged" type="checkbox">
+						<p id="stayLoggedp">Keep me logged in</p>
+						<button class="cleanBtn" onclick="login()"><img id="secureLogin" src="images/secure-login.png"></button>
+					</div>
+					<div id="welcome"></div>
+					<div id="loading" align="center"></div>
+				</div>
+			</div>
+			<div id="borderbotadd2"></div>
+		</div>
+	</div>
+	<script src="scripts/czjquery.js"></script>
+	<script src="scripts/login.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+</body>
+
+</html>

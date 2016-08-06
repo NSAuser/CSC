@@ -1,0 +1,1171 @@
+/* DarkBody
+--------------------------------------------------------------------------------------------------------------- */
+
+.darkbody {
+	background-color: black;
+}
+
+
+/* DarkHeader
+--------------------------------------------------------------------------------------------------------------- */
+
+.darkheader {
+	cursor: pointer;
+	font-family: sans-serif;
+	color: #32CD32;
+	margin: 20px auto;
+	text-align: center;
+}
+
+
+/* DarkNav
+--------------------------------------------------------------------------------------------------------------- */
+
+#darkNavDiv {
+	text-align: center;
+	border-top: 1px solid darkblue;
+	border-bottom: 1px solid darkblue;
+}
+
+#darkLi {
+	font-size: 18px;
+	display: inline;
+}
+
+.darkLink {
+	text-decoration: none;
+	padding-right: 30px;
+	padding-left: 30px;
+	color: #00EEFF;
+}
+
+.darkLink:hover {
+	color: #0099cc;
+}
+
+#darkLID {
+	border-left: 2px solid red;
+}
+
+
+/* WATCHER
+--------------------------------------------------------------------------------------------------------------- */
+
+#watchDiv {
+	margin: 50px auto;
+	text-align: center;
+	width: 500px;
+	height: 120px;
+	background-color: #ccc;
+	border-radius: 24px;
+}
+
+#EYE {
+	margin: 50px auto;
+	width: 50px;
+	height: 50px;
+	position: relative;
+	border: 1px solid #ccc;
+	border-radius: 25px;
+}
+
+#PUPIL {
+	width: 10px;
+	height: 10px;
+	left: 20px;
+	top: 20px;
+	border-radius: 5px;
+	background-color: red;
+	position: relative;
+}
+
+#newper {
+	text-align: center;
+	margi: 10px auto;
+	color: white;
+}
+
+
+/* TOOLS
+--------------------------------------------------------------------------------------------------------------- */
+
+#resolver {
+	margin: 30px auto;
+	padding-top: 50px;
+	text-align: center;
+	width: 300px;
+	height: 75px;
+	background-color: #ccc;
+}
+
+#subres {
+	border-radius: 8px;
+	margin-top: 20px;
+}
+
+#subres:hover {
+	cursor: pointer;
+	background-color: #ccc;
+}
+
+#ratt {
+	position: relative;
+	color: black;
+	font-weight: bold;
+	margin: 30px auto;
+	padding-top: 50px;
+	width: 300px;
+	height: 75px;
+	background-image: url('https://s-media-cache-ak0.pinimg.com/236x/98/88/6c/98886c1c9156a3d1d3f25b91e14840b8.jpg');
+}
+
+#ratext {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+/* WARNING
+--------------------------------------------------------------------------------------------------------------- */
+
+.warnDark {
+	max-width: 100%;
+	height: auto;
+	width: auto\9;
+}
+
+#leaveDark {
+	text-align: center;
+	margin: 0 auto;
+	color: lightblue;
+	font-size: 48px;
+	font-weight: bold;
+}
+
+#enterDark {
+	text-align: center;
+	margin: 30px auto;
+	color: lightblue;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#leaveDark:hover,
+#enterDark:hover {
+	color: purple;
+}
+
+
+/* darkCHAT
+--------------------------------------------------------------------------------------------------------------- */
+
+#activeUsers {
+	position: absolute;
+	margin-top: 40px;
+	margin-left: 60px;
+	border-collapse: collapse;
+	color: white;
+}
+
+.DNETusers {
+	text-align: left;
+	padding: 5px 280px 5px 10px;
+	border: 2px solid #32CD32;
+}
+
+#userDrop {
+	height: 670px;
+	border: none;
+}
+
+#chatRoomNumb {
+	text-align: center;
+	padding: 5px 0 5px 0;
+}
+
+#chatBox {
+	overflow-y: scroll;
+	margin-right: 100px;
+	margin-top: 40px;
+	opacity: 1;
+	float: right;
+	background-color: #999;
+	width: 1200px;
+	height: 762px;
+}
+
+#chatBoxInput {
+	overflow: hidden;
+	float: right;
+	margin-right: 100px;
+	background-color: #eee;
+	height: 70px;
+	width: 1200px;
+	;
+}
+
+#inputText {
+	margin-top: 25px;
+	width: 80%;
+	color: black;
+	margin-left: 4px;
+}
+
+#sendDark {
+	margin-left: 5px;
+	width: 10%;
+}
+
+#chatWel {
+	margin-left: 30px;
+}
+
+.darkMessage {
+	position: relative;
+	display: inline-block;
+	border-radius: 8px;
+	height: 80px;
+	margin-left: 60px;
+	margin-top: 50px;
+	width: 80%;
+	background-color: white;
+}
+
+.darkText {
+	word-wrap: break-word;
+	width: 800px;
+	font-family: Sans-serif;
+	line-height: 25px;
+	margin-left: 130px;
+	margin-top: 3px;
+}
+
+.darkProfile {
+	width: 106px;
+	height: 80px;
+	border-radius: 8px 0 0px 8px;
+	position: absolute;
+	left: 0px;
+	display: inline;
+}
+
+
+/* gambleIT
+--------------------------------------------------------------------------------------------------------------- */
+
+.darkGames {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+#blackJack {
+	position: absolute;
+	left: 100px;
+	top: 130px;
+	border-radius: 4px;
+	-webkit-transition: 0.5s;
+	-webkit-transition-timing-function: linear;
+	transform: translate(0, 20px);
+}
+
+#blackJack:hover {
+	-webkit-transition: 0.5s;
+	-webkit-transition-timing-function: linear;
+	transform: translate(0, -20px);
+	cursor: pointer;
+}
+
+#slots {
+	position: absolute;
+	left: 600px;
+	top: 130px;
+	border-radius: 4px;
+	-webkit-transition: 0.5s;
+	-webkit-transition-timing-function: linear;
+	transform: translate(0, 20px);
+}
+
+#slots:hover {
+	-webkit-transition: 0.5s;
+	-webkit-transition-timing-function: linear;
+	transform: translate(0, -20px);
+	cursor: pointer;
+}
+
+#darkJackRules {
+	line-height: 20px;
+	width: 400px;
+	color: #32CD32;
+	margin: 100px auto;
+}
+
+#titleRules {
+	text-align: center;
+	font-size: 24px;
+	text-decoration: underline;
+}
+
+#playLeave {
+	width: 400px;
+	margin: 0 auto;
+}
+
+#jackPlay {
+	cursor: pointer;
+	width: 80px;
+	display: inline;
+	border-radius: 4px;
+}
+
+#jackPlay:hover {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3), inset 0px 2px 5px rgba(0, 0, 0, 0.3), 0 0 28px 6px #32CD32;
+	-moz-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3), inset 0px 2px 5px rgba(0, 0, 0, 0.3), 0 0 28px 6px #32CD32;
+	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3), inset 0px 2px 5px rgba(0, 0, 0, 0.3), 0 0 28px 6px #32CD32;
+}
+
+#jackExit {
+	cursor: pointer;
+	width: 80px;
+	display: inline;
+	border-radius: 4px;
+	margin-left: 230px;
+}
+
+#jackExit:hover {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3), inset 0px 2px 5px rgba(0, 0, 0, 0.3), 0 0 28px 6px #ff0000;
+	-moz-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3), inset 0px 2px 5px rgba(0, 0, 0, 0.3), 0 0 28px 6px #ff0000;
+	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3), inset 0px 2px 5px rgba(0, 0, 0, 0.3), 0 0 28px 6px #ff0000;
+}
+
+.darkLinky {
+	text-decoration: none;
+}
+
+
+/* DarkJack
+--------------------------------------------------------------------------------------------------------------- */
+
+#bodyJack {
+	overflow: hidden;
+}
+
+#dealerInfo {
+	border-radius: 8px 0 0 8px;
+	background-color: white;
+	font-family: sans-serif;
+	color: black;
+	width: 125px;
+	padding: 8px 84px 8px 8px;
+	position: absolute;
+	right: 8px;
+	top: 30px;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+#darkCasLogo {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	position: absolute;
+	right: 7px;
+	top: 30px;
+}
+
+#card0 {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	position: absolute;
+	left: 30px;
+	top: 30px;
+	width: 90px;
+	visibility: hidden;
+}
+
+#card1 {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	position: absolute;
+	left: 120px;
+	top: 30px;
+	width: 90px;
+	visibility: hidden;
+}
+
+#card2 {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	position: absolute;
+	left: 210px;
+	top: 30px;
+	width: 90px;
+	visibility: hidden;
+}
+
+#card3 {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	position: absolute;
+	left: 300px;
+	top: 30px;
+	width: 90px;
+	visibility: hidden;
+}
+
+#card4 {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	position: absolute;
+	left: 33px;
+	top: 50px;
+	width: 90px;
+	visibility: hidden;
+}
+
+#card5 {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	position: absolute;
+	left: 123px;
+	top: 50px;
+	width: 90px;
+	visibility: hidden;
+}
+
+#card6 {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	position: absolute;
+	left: 213px;
+	top: 50px;
+	width: 90px;
+	visibility: hidden;
+}
+
+#card7 {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	position: absolute;
+	left: 303px;
+	top: 50px;
+	width: 90px;
+	visibility: hidden;
+}
+
+#card8 {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	position: absolute;
+	left: 33px;
+	top: 70px;
+	width: 90px;
+	visibility: hidden;
+}
+
+#card9 {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	position: absolute;
+	left: 123px;
+	top: 70px;
+	width: 90px;
+	visibility: hidden;
+}
+
+#card10 {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	position: absolute;
+	left: 213px;
+	top: 70px;
+	width: 90px;
+	visibility: hidden;
+}
+
+#card11 {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	position: absolute;
+	left: 303px;
+	top: 70px;
+	width: 90px;
+	visibility: hidden;
+}
+
+#divider {
+	position: absolute;
+	left: 0px;
+	top: 170px;
+}
+
+#EnterBet {
+	border: 4px solid white;
+	border-radius: 8px;
+	padding: 15px;
+	color: #32CD32;
+	position: absolute;
+	left: 150px;
+	top: 480px;
+}
+
+#Insurance {
+	border: 4px solid white;
+	border-radius: 8px;
+	padding: 15px;
+	color: #32CD32;
+	position: absolute;
+	left: 150px;
+	top: 680px;
+}
+
+#dealBtn {
+	margin-right: 50px;
+	width: 90px;
+	color: #32CD32;
+	background-color: black;
+	border: 1px solid #ccc;
+}
+
+#dealBtn:hover {
+	cursor: pointer;
+	border-color: red;
+}
+
+#dealBtn:active {
+	outline: none;
+	transform: scale(1.05, 1.05);
+}
+
+#dealBtn:focus {
+	outline: none;
+}
+
+#exitBtn {
+	width: 90px;
+	color: #32CD32;
+	background-color: black;
+	border: 1px solid #ccc;
+}
+
+#exitBtn:hover {
+	cursor: pointer;
+	border-color: red;
+}
+
+#exitBtn:active {
+	transform: scale(1.05, 1.05);
+}
+
+#exitBtn:active {
+	outline: none;
+}
+
+#playButtons {
+	position: absolute;
+	left: 150px;
+	top: 180 px;
+	visibility: hidden;
+}
+
+#nextGame {
+	border: 4px solid white;
+	border-radius: 8px;
+	padding: 15px;
+	color: #32CD32;
+	position: absolute;
+	left: 150px;
+	top: 480px;
+	visibility: hidden;
+	text-align: center;
+}
+
+#nxtGame {
+	padding: 4px;
+	width: 120px;
+	color: #32CD32;
+	background-color: black;
+	border: 1px solid #ccc;
+}
+
+#nxtGame:hover {
+	cursor: pointer;
+	border-color: red;
+}
+
+#nxtGame:active {
+	outline: none;
+	transform: scale(1.05, 1.05);
+}
+
+#nxtGame:focus {
+	outline: none;
+}
+
+#card12 {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	position: absolute;
+	left: 30px;
+	top: 180px;
+	width: 90px;
+	visibility: hidden;
+}
+
+#card13 {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	position: absolute;
+	left: 120px;
+	top: 180px;
+	width: 90px;
+	visibility: hidden;
+}
+
+#card14 {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	position: absolute;
+	left: 210px;
+	top: 180px;
+	width: 90px;
+	visibility: hidden;
+}
+
+#card15 {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	position: absolute;
+	left: 300px;
+	top: 180px;
+	width: 90px;
+	visibility: hidden;
+}
+
+#card16 {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	position: absolute;
+	left: 33px;
+	top: 200px;
+	width: 90px;
+	visibility: hidden;
+}
+
+#card17 {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	position: absolute;
+	left: 123px;
+	top: 200px;
+	width: 90px;
+	visibility: hidden;
+}
+
+#card18 {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	position: absolute;
+	left: 213px;
+	top: 200px;
+	width: 90px;
+	visibility: hidden;
+}
+
+#card19 {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	position: absolute;
+	left: 303px;
+	top: 200px;
+	width: 90px;
+	visibility: hidden;
+}
+
+#card20 {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	position: absolute;
+	left: 33px;
+	top: 220px;
+	width: 90px;
+	visibility: hidden;
+}
+
+#card21 {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	position: absolute;
+	left: 123px;
+	top: 220px;
+	width: 90px;
+	visibility: hidden;
+}
+
+#card22 {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	position: absolute;
+	left: 213px;
+	top: 220px;
+	width: 90px;
+	visibility: hidden;
+}
+
+#card23 {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	position: absolute;
+	left: 303px;
+	top: 220px;
+	width: 90px;
+	visibility: hidden;
+}
+
+.grencolor {
+	color: #32CD32;
+}
+
+#balanceInc:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.casBoard {
+	border-radius: 0 0px 120px 120px;
+	text-align: center;
+	width: 100%;
+	height: 335px;
+	background-image: url("../../images/hax/gambleImages/casboard.png");
+}
+
+.cardAlign {
+	position: relative;
+	text-align: center;
+	width: 300px;
+	margin: 0 auto;
+}
+
+#hitBtn {
+	background: #000000;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0px;
+	font-family: Georgia;
+	color: #ffd699;
+	font-size: 24px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	width: 150px;
+	display: inline;
+	margin-right: 50px;
+}
+
+#hitBtn:hover {
+	text-decoration: none;
+	cursor: pointer;
+	background: #000000;
+	background-image: -webkit-linear-gradient(top, #000000, #ff0000);
+	background-image: -moz-linear-gradient(top, #000000, #ff0000);
+	background-image: -ms-linear-gradient(top, #000000, #ff0000);
+	background-image: -o-linear-gradient(top, #000000, #ff0000);
+	background-image: linear-gradient(to bottom, #000000, #ff0000);
+}
+
+#hitBtn:focus,
+#hitBtn:active {
+	outline: none;
+}
+
+#standBtn {
+	display: inline;
+	background: #000000;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0px;
+	font-family: Georgia;
+	color: #ffd699;
+	font-size: 24px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	width: 150px;
+}
+
+#standBtn:hover {
+	text-decoration: none;
+	cursor: pointer;
+	background: #000000;
+	background-image: -webkit-linear-gradient(top, #000000, #ff0000);
+	background-image: -moz-linear-gradient(top, #000000, #ff0000);
+	background-image: -ms-linear-gradient(top, #000000, #ff0000);
+	background-image: -o-linear-gradient(top, #000000, #ff0000);
+	background-image: linear-gradient(to bottom, #000000, #ff0000);
+}
+
+#standBtn:focus,
+#standBtn:active {
+	outline: none;
+}
+
+#vegas {
+	z-index: -5;
+	right: 40%;
+	position: absolute;
+	bottom: 0px;
+	background-repeat: no-repeat;
+}
+
+#mafmodal {
+	border-radius: 8px;
+	border-top: 40px solid #505C69;
+	border-bottom: 40px solid #505C69;
+	position: absolute;
+	z-index: 5;
+	background-color: white;
+	width: 1200px;
+	height: 600px;
+	top: 10%;
+	left: 19%;
+	margin: auto;
+}
+
+#lineTitle {
+	width: 1096px;
+	margin-left: 50px;
+	padding-bottom: 30px;
+	border-bottom: 2px solid black;
+}
+
+#maftitle {
+	background-color: white;
+	width: 200px;
+	height: 30px;
+	z-index: 7;
+	position: absolute;
+	top: -10px;
+	left: 500px;
+}
+
+#thugClass {
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	margin-top: 20px;
+	margin-left: 190px;
+}
+
+#mafiosoClass {
+	border: 3px solid black;
+	border-radius: 180px;
+	position: absolute;
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	top: 40px;
+	margin-top: 20px;
+	margin-left: 183px;
+	white-space: nowrap;
+}
+
+#godfatherClass {
+	background-color: black;
+	border: 1px solid black;
+	border-radius: 180px;
+	position: absolute;
+	display: inline-block;
+	width: 153px;
+	height: 153px;
+	top: 40px;
+	margin-top: 20px;
+	margin-left: 535px;
+	white-space: nowrap;
+}
+
+#GFimg {
+	width: 153px;
+	height: 153px;
+	margin-left: 15px;
+}
+
+#GFsize:hover {
+	border-radius: 180px;
+	background-color: black;
+	cursor: default;
+	transform: scale(1.08, 1.08);
+}
+
+#MAFimg:hover {
+	cursor: default;
+	transform: scale(1.08, 1.08);
+}
+
+#THGimg:hover {
+	cursor: default;
+	transform: scale(1.08, 1.08);
+}
+
+#dealSelection {
+	margin-top: 55px;
+}
+
+#GFtext {
+	position: absolute;
+	width: 100px;
+	display: inline-block;
+	right: 60px;
+}
+
+#dealerDesc {
+	text-align: center;
+	font-size: 24px;
+}
+
+#confirmDeal {
+	display: none;
+	position: absolute;
+	bottom: 20px;
+	left: 520px;
+	background: #000000;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0px;
+	font-family: Georgia;
+	color: #ffd699;
+	font-size: 24px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+}
+
+#confirmDeal:hover {
+	text-decoration: none;
+	cursor: pointer;
+	background: #000000;
+	background-image: -webkit-linear-gradient(top, #000000, #ff0000);
+	background-image: -moz-linear-gradient(top, #000000, #ff0000);
+	background-image: -ms-linear-gradient(top, #000000, #ff0000);
+	background-image: -o-linear-gradient(top, #000000, #ff0000);
+	background-image: linear-gradient(to bottom, #000000, #ff0000);
+}
+
+#confirmDea:active,
+#confirmDeal:focus {
+	outline: none;
+}
+
+#loadRoul {
+	visibility: hidden;
+	left: 373px;
+	top: 80px;
+	position: absolute;
+	-webkit-animation-name: spin;
+	-webkit-animation-duration: 3500ms;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-name: spin;
+	-moz-animation-duration: 3500ms;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+}
+
+@-moz-keyframes spin {
+	from {
+		-moz-transform: rotate(0deg);
+	}
+	to {
+		-moz-transform: rotate(360deg);
+	}
+}
+
+@-webkit-keyframes spin {
+	from {
+		-webkit-transform: rotate(0deg);
+	}
+	to {
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+@keyframes spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+
+/*CasChat GFim
+--------------------------------------------------------------------------------------------------------------- */
+
+#chatBoxGF {
+	min-width: 20px;
+	position: absolute;
+	overflow-y: scroll;
+	opacity: 1;
+	bottom: 70px;
+	left: 50%;
+	background-color: #999;
+	width: 800px;
+	height: 462px;
+}
+
+#chatBoxInputGF {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	overflow: hidden;
+	background-color: #ccc;
+	height: 70px;
+	width: 800px;
+}
+
+#inputTextGF {
+	margin-top: 25px;
+	width: 75%;
+	color: black;
+	margin-left: 4px;
+}
+
+#sendDarkGF {
+	margin-left: 5px;
+	width: 10%;
+}
+
+#chatWelGF {
+	margin-left: 30px;
+}
+
+.darkMessageGF {
+	position: relative;
+	display: inline-block;
+	border-radius: 8px;
+	height: 80px;
+	margin-left: 60px;
+	margin-top: 40px;
+	margin-bottom: 15px;
+	width: 87%;
+	background-color: white;
+}
+
+.darkTextGF {
+	word-wrap: break-word;
+	width: 529px;
+	font-family: Sans-serif;
+	line-height: 25px;
+	margin-left: 130px;
+	margin-top: 7.5px;
+}
+
+.darkProfileGF {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	width: 106px;
+	height: 80px;
+	border-radius: 8px 0 0px 8px;
+	position: absolute;
+	left: 0px;
+	display: inline;
+}
+
+#topChatBarGF {
+	border-radius: 4px 4px 0 0;
+	left: 50%;
+	bottom: 532px;
+	position: absolute;
+	width: 800px;
+	height: 35px;
+	background-color: #ccc;
+}
+
+#minwinGF {
+	position: absolute;
+	right: 30px;
+	top: 2.5px;
+}
+
+#minwinGF:hover {
+	cursor: pointer;
+	transform: scale(0.90, 0.90);
+}
+
+#maxwinGF {
+	position: absolute;
+	right: 30px;
+	top: 2.5px;
+}
+
+#maxwinGF:hover {
+	cursor: pointer;
+	transform: scale(1.08, 1.08);
+}
+
+#typingGF {
+	visibility: hidden;
+	left: 80px;
+	position: absolute;
+	top: -13px;
+	opacity: 0.7;
+}
+
+#notification {
+	visibility: hidden;
+	font-weight: bold;
+	background-color: orange;
+	width: 35px;
+	height: 17px;
+	border: 2px solid darkorange;
+	text-align: center;
+	position: absolute;
+	right: 120px;
+	bottom: -10px;
+}
+
+
+/* userSQLdump
+--------------------------------------------------------------------------------------------------------------- */
+
+#SQLdumpHead {
+	text-align: center;
+	color: white;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+#SQLtableLeak {
+	border-collapse: collapse;
+	width: 300px;
+	color: white;
+}
+
+.SQLtext {
+	border: 1px solid white;
+	text-align: center;
+}

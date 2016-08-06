@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>DarkJackPlay</title>
+	<meta charset="utf-8">
+	<link href="../../layout/styles/night.css" rel="stylesheet" type="text/css" media="all">
+</head>
+
+<body id="bodyJack" bgcolor="#000000" onload="setupGame();">
+	<audio id="backCas" autoplay loop>
+  <source src="../../sound/casino/black_fedora.mp3" type="audio/mp3">
+</audio>
+	<div class="grencolor">
+		<div id="nextGame">
+			<form action="#">
+				<input id="nxtGame" type="button" value="Next Hand" onclick="window.newDeal();">
+			</form>
+		</div>
+		<div class="casBoard">
+			<div id="dealerInfo">
+				<p></p>
+			</div>
+			<img id="darkCasLogo" src="../../images/hax/gambleImages/spade.png">
+			<div id="divider"></div>
+			<div class="cardAlign">
+
+				<div id="card0"><img src="pics/null.gif" width="81" height="101" id="pic0" name="pic0" alt="" /></div>
+				<div id="card1"><img src="pics/null.gif" width="81" height="101" id="pic1" name="pic1" alt="" /></div>
+				<div id="card2"><img src="pics/null.gif" width="81" height="101" id="pic2" name="pic2" alt="" /></div>
+				<div id="card3"><img src="pics/null.gif" width="81" height="101" id="pic3" name="pic3" alt="" /></div>
+				<div id="card4"><img src="pics/null.gif" width="81" height="101" id="pic4" name="pic4" alt="" /></div>
+				<div id="card5"><img src="pics/null.gif" width="81" height="101" id="pic5" name="pic5" alt="" /></div>
+				<div id="card6"><img src="pics/null.gif" width="81" height="101" id="pic6" name="pic6" alt="" /></div>
+				<div id="card7"><img src="pics/null.gif" width="81" height="101" id="pic7" name="pic7" alt="" /></div>
+				<div id="card8"><img src="pics/null.gif" width="81" height="101" id="pic8" name="pic8" alt="" /></div>
+				<div id="card9"><img src="pics/null.gif" width="81" height="101" id="pic9" name="pic9" alt="" /></div>
+				<div id="card10"><img src="pics/null.gif" width="81" height="101" id="pic10" name="pic10" alt="" /></div>
+				<div id="card11"><img src="pics/null.gif" width="81" height="101" id="pic11" name="pic11" alt="" /></div>
+
+				<div id="card12"><img src="pics/null.gif" width="81" height="101" id="pic12" name="pic12" alt="" /></div>
+				<div id="card13"><img src="pics/null.gif" width="81" height="101" id="pic13" name="pic13" alt="" /></div>
+				<div id="card14"><img src="pics/null.gif" width="81" height="101" id="pic14" name="pic14" alt="" /></div>
+				<div id="card15"><img src="pics/null.gif" width="81" height="101" id="pic15" name="pic15" alt="" /></div>
+				<div id="card16"><img src="pics/null.gif" width="81" height="101" id="pic16" name="pic16" alt="" /></div>
+				<div id="card17"><img src="pics/null.gif" width="81" height="101" id="pic17" name="pic17" alt="" /></div>
+				<div id="card18"><img src="pics/null.gif" width="81" height="101" id="pic18" name="pic18" alt="" /></div>
+				<div id="card19"><img src="pics/null.gif" width="81" height="101" id="pic19" name="pic19" alt="" /></div>
+				<div id="card20"><img src="pics/null.gif" width="81" height="101" id="pic20" name="pic20" alt="" /></div>
+				<div id="card21"><img src="pics/null.gif" width="81" height="101" id="pic21" name="pic21" alt="" /></div>
+				<div id="card22"><img src="pics/null.gif" width="81" height="101" id="pic22" name="pic22" alt="" /></div>
+				<div id="card23"><img src="pics/null.gif" width="81" height="101" id="pic23" name="pic23" alt="" /></div>
+			</div>
+		</div>
+
+		<div id="EnterBet">
+			<form id="betArea" name="betArea" onsubmit="return false;" action="#">
+				Place your bet: <input name="betAmount" type="number" size="10" />
+				<br>
+				<br>
+				<br>
+				<div align="center">
+					<input id="dealBtn" type="button" value="DEAL" onclick="dealHand();">
+					<input id="exitBtn" type="button" value="EXIT" onclick="window.location.href='darkJack.html';">
+				</div>
+			</form>
+		</div>
+
+		<div id="Insurance">
+			<form id="insurArea" name="insurArea" onsubmit="return false;" action="#">
+				Insurance?: <input name="insurAmount" type="number" size="10" />
+				<br>
+				<br>
+				<br>
+				<div align="center">
+					<input id="dealBtn" type="button" value="DEAL" onclick="dealHand();">
+					<input id="exitBtn" type="button" value="EXIT" onclick="window.location.href='darkJack.html';">
+				</div>
+			</form>
+		</div>
+		<audio id="cardFlip">
+  <source src="../../sound/casino/cardSlide5.wav" type="audio/wav">
+</audio>
+		<div id="playButtons">
+			<form action="#">
+				<audio id="cardDown">
+  <source src="../../sound/casino/cardPlace1.wav" type="audio/wav">
+</audio>
+				<p>
+					<input id="hitBtn" type="button" value="HIT" onclick="hit( PLAYER ); cardPlace()">
+					<input id="standBtn" type="button" value="STAND" onclick="stand();">
+				</p>
+			</form>
+		</div>
+	</div>
+	<div id="topChatBarGF">
+		<p id="notification"></p><img id="minwinGF" onmousedown="winRez();" src="../../images/hax/gambleImages/minwin.png"></div>
+	<div id="chatBoxGF">
+		<div id="msgHold">
+		</div>
+	</div>
+	<div id="chatBoxInputGF">
+		<p id="typingGF">GODFATHER is typing...</p>
+		<font id="chatWelGF">CHAT:</font> <input type="text" id="inputTextGF" maxlength="80"><input type="submit" onclick="chatDark()" id="sendDarkGF" value="SEND">
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script id="GF1" src="../../scripts/godfather.js"></script>
+	<script src="../../scripts/dark.js"></script>
+</body>
+
+</html>

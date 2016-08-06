@@ -1,0 +1,976 @@
+@charset "utf-8";
+@import url("setup.css");
+
+/* Top Bar
+--------------------------------------------------------------------------------------------------------------- */
+
+#topbar {
+	padding: 10px 0 0 0;
+	text-align: right;
+	font-size: .8em;
+}
+
+#topbar li {
+	display: inline;
+	margin-right: 3px;
+	padding-right: 8px;
+	border-right: 1px solid;
+}
+
+#topbar li:last-child {
+	margin-right: 0;
+	padding-right: 0;
+	border: none;
+}
+
+
+/* Header
+--------------------------------------------------------------------------------------------------------------- */
+
+#header #logo h1 {
+	margin: 0 0 8px 0;
+	padding: 0;
+	font-size: 36px;
+	line-height: 12px;
+	font-variant: small-caps;
+	font-style: normal;
+}
+
+#header #logo p {
+	margin: 0;
+	padding: 0;
+}
+
+#header form {
+	display: block;
+	position: relative;
+	width: 100%;
+}
+
+#header input,
+#header button {
+	display: block;
+	height: 30px;
+	border: none;
+}
+
+#header input {
+	width: 100%;
+	min-width: 250px;
+	padding: 5px 40px 5px 5px;
+}
+
+#header button {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 35px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+#header button em {
+	display: none;
+}
+
+.formDIV {
+	display: block;
+	position: relative;
+	width: 100%;
+}
+
+
+/* SlidePic
+--------------------------------------------------------------------------------------------------------------- */
+
+#slider {
+	position: relative;
+	overflow: hidden;
+}
+
+#slider .rounded {
+	padding: 9px;
+}
+
+#slider a,
+#slider ul,
+#slider img {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	list-style: none;
+	text-decoration: none;
+}
+
+#slide-holding,
+#slide-holding figure,
+#slide-holding img {
+	display: block;
+	overflow: hidden;
+}
+
+#slide-holding figure,
+#slide-holding figure img {
+	position: relative;
+}
+
+#slide-holding figure figcaption {
+	display: block;
+	position: absolute;
+	top: 50px;
+	right: 25px;
+	width: 350px;
+	height: 200px;
+	margin: 0;
+	padding: 30px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+#slide-holding figure figcaption p {
+	margin: 0;
+	padding: 0;
+	line-height: 1.6em;
+}
+
+#slider #slide-tabs {
+	display: block;
+	overflow: hidden;
+	font-size: 12px;
+}
+
+#slider #slide-tabs li {
+	display: inline-block;
+	float: left;
+}
+
+#slider #slide-tabs li a {
+	display: block;
+	width: 192px;
+	min-height: 60px;
+	padding: 10px;
+	box-sizing: border-box;
+	border: solid;
+	border-width: 0 0 1px 1px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#slider #slide-tabs li:last-child a {
+	border-width: 0 1px 1px 1px;
+}
+
+
+/* Content Area
+--------------------------------------------------------------------------------------------------------------- */
+
+.container {
+	padding: 20px 10px;
+}
+
+.container h1,
+.container h2,
+.container h3,
+.container h4,
+.container h5,
+.container h6,
+.container .heading {
+	padding-bottom: 8px;
+	border-bottom: 1px solid;
+}
+
+
+/* Content */
+
+#twitter {
+	display: block;
+	padding: 15px;
+}
+
+#twitter div {
+	padding: 25px 0;
+}
+
+#twitter div:first-child {
+	border-right: 2px solid;
+}
+
+.listing li {
+	margin: 0 0 30px 0;
+	padding: 0 0 20px 0;
+	border-bottom: 1px solid;
+}
+
+.listing li:last-child {
+	margin-bottom: 0;
+}
+
+.mediacontainer,
+.mediacontainer iframe {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+.mediacontainer {
+	width: 100%;
+	position: relative;
+}
+
+.helpinfo {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	word-wrap: break-word;
+}
+
+.helpinfo li {
+	display: block;
+	width: 100%;
+	min-height: 80px;
+	margin: 0 0 20px 0;
+	overflow: hidden;
+}
+
+.helpinfo li:last-child {
+	margin-bottom: 0;
+}
+
+.helpinfo li a {
+	display: block;
+	position: relative;
+	width: 100%;
+	min-height: 80px;
+	padding: 18px 0 0 80px;
+	box-sizing: border-box;
+}
+
+.helpinfo li a img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 80px;
+	height: 80px;
+}
+
+
+/* Review Site Content
+--------------------------------------------------------------------------------------------------------------- */
+
+.reviewalign {
+	margin-left: 145px;
+}
+
+.subrev {
+	height: 30px;
+	width: 232px;
+	background-color: #4477cc;
+	color: white;
+}
+
+.subrev:hover {
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#valuez {
+	width: 600px;
+	height: 575px;
+	overflow-y: scroll;
+	border: solid 0.5px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+#nickn {
+	display: inline;
+	margin-right: 25px;
+}
+
+.divhold {
+	position: relative;
+}
+
+.divhold2 {
+	position: relative;
+	display: inline-block;
+}
+
+.user {
+	font-size: 18px;
+	display: inline;
+	cursor: pointer;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.user:hover {
+	color: purple;
+}
+
+.userpos {
+	position: absolute;
+	top: 3px;
+	font-size: 18px;
+	display: inline;
+	cursor: pointer;
+	margin: 0 0px 0 12px;
+	list-style: none;
+}
+
+.userpos:hover {
+	color: purple;
+}
+
+.revjs {
+	width: 420px;
+	height: 95px;
+	position: absolute;
+	bottom: -80px;
+	display: inline-block;
+	margin-left: 11px;
+	white-space: wrap;
+	overflow: hidden;
+}
+
+.nickcolor {
+	margin-left: 80px;
+	font-weight: bold;
+	color: black;
+	font-style: italic;
+}
+
+.addrevbox {
+	display: block;
+	background-color: #4488FF;
+	padding: 10px 10px 10px 10px;
+	width: 589px;
+	border-radius: 0 0 18px 18px;
+}
+
+.reviewtitle {
+	font-size: 48px;
+}
+
+.revform {
+	margin-left: 145px;
+}
+
+.revlogin {
+	position: relative;
+	right: -445px;
+	bottom: 20px;
+	color: #eeeeee;
+}
+
+.revlogin:hover {
+	color: #bbb;
+}
+
+#revcopyr {
+	background-color: white;
+	padding: 8px;
+	border-radius: 8px 8px 8px 8px;
+}
+
+
+/* ERROR 404 
+--------------------------------------------------------------------------------------------------------------- */
+
+.nopagefound {
+	background-color: black;
+}
+
+.haxsite {
+	color: red;
+}
+
+.haxsite:hover {
+	text-decoration: underline;
+}
+
+#ldump {
+	font-size: 24px;
+	color: red;
+	display: block;
+}
+
+.err404 {
+	position: relative;
+	padding: 80px 0 80px 0;
+	margin-top: 4%;
+	background-color: white;
+}
+
+#bottomErrText {
+	margin: 20px 0 0 20px;
+}
+
+#homeBack {
+	border-radius: 0;
+	position: absolute;
+	display: inline;
+	top: 0;
+	right: 1px;
+	width: 490px;
+	height: 230px;
+}
+
+
+/* TestSec Content
+--------------------------------------------------------------------------------------------------------------- */
+
+.secchecktitle {
+	font-size: 48px;
+	margin: 0 auto;
+}
+
+.seccontainer {
+	position: relative;
+}
+
+#passphrase {
+	width: 900px;
+	height: 40px;
+	font-size: 40px;
+	text-align: left;
+	margin: 0 auto;
+	display: none;
+}
+
+#checker {
+	font-weight: bold;
+	color: red;
+	font-size: 22px;
+	text-align: center;
+	display: none;
+}
+
+#checker1 {
+	font-weight: bold;
+	color: lightgreen;
+	font-size: 22px;
+	text-align: center;
+	display: none;
+}
+
+#checker2 {
+	font-weight: bold;
+	color: green;
+	font-size: 22px;
+	text-align: center;
+	display: none;
+}
+
+#checker3 {
+	font-weight: bold;
+	color: blue;
+	font-size: 22px;
+	text-align: center;
+	display: none;
+}
+
+#checker4 {
+	color: silver;
+	font-weight: bold;
+	font-size: 22px;
+	text-align: center;
+	display: none;
+}
+
+#checker5 {
+	font-weight: bold;
+	font-size: 22px;
+	text-align: center;
+	display: none;
+	-webkit-animation: color-change 1s infinite;
+	-moz-animation: color-change 1s infinite;
+	-o-animation: color-change 1s infinite;
+	-ms-animation: color-change 1s infinite;
+	animation: color-change 1s infinite;
+}
+
+@-webkit-keyframes color-change {
+	0% {
+		color: black;
+	}
+	50% {
+		color: lightgreen;
+	}
+	100% {
+		color: black;
+	}
+}
+
+@-moz-keyframes color-change {
+	0% {
+		color: black;
+	}
+	50% {
+		color: lightgreen;
+	}
+	100% {
+		color: black;
+	}
+}
+
+@-ms-keyframes color-change {
+	0% {
+		color: black;
+	}
+	50% {
+		color: lightgreen;
+	}
+	100% {
+		color: black;
+	}
+}
+
+@-o-keyframes color-change {
+	0% {
+		color: black;
+	}
+	50% {
+		color: lightgreen;
+	}
+	100% {
+		color: black;
+	}
+}
+
+@keyframes color-change {
+	0% {
+		color: black;
+	}
+	50% {
+		color: lightgreen;
+	}
+	100% {
+		color: black;
+	}
+}
+
+.passcheck {
+	cursor: pointer;
+	margin-top: 12px;
+	font-size: 30px;
+}
+
+.passcheck:hover {
+	color: white;
+	text-shadow: 1px 1px 1px black, 0 0 5px blue, 0 0 2px lightblue;
+}
+
+.addsign {
+	font-weight: bold;
+	font-size: 38px;
+	position: absolute;
+	right: 20px;
+	top: -40px;
+	display: inline;
+}
+
+
+/* Login
+--------------------------------------------------------------------------------------------------------------- */
+
+.logtitle {
+	margin-left: 20px;
+	width: 600px;
+	border-bottom: 1px solid #ccc;
+	color: darkblue;
+	font-size: 36px;
+}
+
+.roundlog {
+	background: white;
+	padding-bottom: 80px;
+}
+
+#borderbotadd {
+	position: relative;
+	border-radius: 35px;
+	border-top: 70px solid lightblue;
+}
+
+#loguser {
+	margin-left: 10px;
+	display: inline;
+}
+
+#userp {
+	margin-left: 80px;
+	font-size: 16px;
+	display: inline;
+}
+
+#logpass {
+	margin-left: 14px;
+	display: inline;
+}
+
+#passp {
+	margin-left: 80px;
+	font-size: 16px;
+	display: inline;
+}
+
+#loguser:focus,
+#loguser:active {
+	border: 2px solid #FFDF46;
+}
+
+#logpass:focus,
+#logpass:active {
+	border: 2px solid #FFDF46;
+}
+
+#logLogo {
+	position: absolute;
+	right: 30px;
+	top: 0;
+	display: inline;
+}
+
+.valCheckUser {
+	font-weight: bold;
+	display: none;
+	color: red;
+}
+
+.valCheckPass {
+	font-weight: bold;
+	display: none;
+	color: red;
+}
+
+.captcha {
+	margin-top: 60px;
+	margin-left: 80px;
+	display: block;
+	border: 1px solid #ccc;
+}
+
+#captchatext {
+	margin-top: 5px;
+	width: 302px;
+	margin-left: 80px;
+	border-radius: 0;
+}
+
+@keyframes capshake {
+	10%,
+	90% {
+		transform: translate3d(-1px, 0, 0);
+	}
+	20%,
+	80% {
+		transform: translate3d(2px, 0, 0);
+	}
+	30%,
+	50%,
+	70% {
+		transform: translate3d(-4px, 0, 0);
+	}
+	40%,
+	60% {
+		transform: translate3d(4px, 0, 0);
+	}
+}
+
+#stayLogged {
+	margin-left: 80px;
+	display: inline;
+	margin-top: 60px;
+}
+
+#stayLoggedp {
+	display: inline;
+	margin-left: 10px;
+	font-size: 16px;
+}
+
+#secureLogin {
+	margin-left: 30px;
+	width: 150px;
+	border-radius: 4px;
+}
+
+#secureLogin:hover {
+	border: none;
+}
+
+#borderbotadd2 {
+	border-radius: 0 0 35px 35px;
+	border-top: 70px solid lightblue;
+}
+
+.cleanBtn {
+	padding: 0;
+	border: none;
+	background: none;
+}
+
+.cleanBtn:focus,
+.cleanBtn:active {
+	background-image: none;
+	outline: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.cleanBtn:hover {
+	cursor: pointer;
+	opacity: 0.85;
+}
+
+#loading {
+	display: none;
+	margin: 0 auto;
+	border: 16px solid #C0C0C0;
+	border-top: 16px solid #000080;
+	border-radius: 50%;
+	width: 150px;
+	height: 140px;
+	animation: load 3s linear infinite;
+}
+
+#welcome {
+	font-size: 36px;
+	margin: 0 auto;
+	text-align: center;
+	color: #000080;
+}
+
+@keyframes load {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+
+/* Rounded Corners
+--------------------------------------------------------------------------------------------------------------- */
+
+.rounded,
+input,
+button,
+textarea,
+#header input,
+#footer input,
+#slide-holding figcaption,
+#twitter,
+strong {
+	border-radius: 8px;
+}
+
+#header button {
+	border-radius: 0 8px 8px 0;
+}
+
+#slider #slide-tabs li:first-child a {
+	border-radius: 0 0 0 8px;
+}
+
+#slider #slide-tabs li:last-child a {
+	border-radius: 0 0 8px 0;
+}
+
+
+/* Colors
+--------------------------------------------------------------------------------------------------------------- */
+
+body {
+	color: #F9F9F9;
+	background-color: #06213F;
+}
+
+a {
+	color: #55ABDA;
+}
+
+hr,
+.borderedbox {
+	border-color: #bbbbbb;
+}
+
+label span {
+	color: #FF0000;
+	background-color: inherit;
+}
+
+.rounded {
+	color: inherit;
+	background-color: #F9F9F9;
+}
+
+
+/* Levels 
+--------------------------------------------------------------------------------------------------------------- */
+
+.level0,
+.level0 a {
+	color: #F9F9F9;
+	background-color: #06213F;
+}
+
+.level1 {
+	color: #979797;
+	background-color: #06213F;
+}
+
+.level1 a {
+	color: #F9F9F9;
+	background-color: inherit;
+}
+
+.level2,
+.level2 a {
+	color: #06213F;
+	background-color: inherit;
+}
+
+.level3 {
+	color: #979797;
+	background-color: inherit;
+}
+
+.level4 {
+	color: #979797;
+	background-color: inherit;
+}
+
+.level5,
+.level5 a {
+	color: #55ABDA;
+	background-color: #06213F;
+}
+
+
+/* Top Bar 
+--------------------------------------------------------------------------------------------------------------- */
+
+#topbar li {
+	border-color: #FFFFFF;
+}
+
+
+/* Header 
+--------------------------------------------------------------------------------------------------------------- */
+
+#header input {
+	color: #979797;
+	background-color: #FFFFFF;
+}
+
+#header button {
+	color: #F9F9F9;
+	background-color: #55ABDA;
+}
+
+
+/* Slider 
+--------------------------------------------------------------------------------------------------------------- */
+
+#slide-holding figure figcaption {
+	color: #666666;
+	background-color: rgba(255, 255, 255, .5);
+}
+
+#slide-holding figure figcaption:hover {
+	background-color: rgba(255, 255, 255, 1);
+}
+
+#slider #slide-tabs li a {
+	color: #666666;
+	background-color: #DEDACB;
+	border-color: #666666;
+}
+
+#slider #slide-tabs li a:hover,
+#slider #slide-tabs li.active a {
+	color: #FFFFFF;
+	background-color: #06213F;
+}
+
+
+/* Content 
+--------------------------------------------------------------------------------------------------------------- */
+
+.container h1,
+.container h2,
+.container h3,
+.container h4,
+.container h5,
+.container h6,
+.container .heading {
+	border-color: #D7D7D7;
+}
+
+#twitter {
+	color: #FFFFFF;
+	background-color: #06213F;
+}
+
+#twitter div:first-child {
+	border-color: #FFFFFF;
+}
+
+.listing li {
+	border-color: #D7D7D7;
+}
+
+.helpinfo li a {
+	color: #666666;
+	background-color: #DEDACB;
+}
+
+.helpinfo li a:hover {
+	color: #FFFFFF;
+	background-color: #06213F;
+}
+
+
+/* Navigation 
+--------------------------------------------------------------------------------------------------------------- */
+
+.container .sidebar nav a {
+	color: inherit;
+	border-color: #D7D7D7;
+}
+
+.container .sidebar nav a:hover {
+	color: #55ABDA;
+}
+
+
+/* Other
+---------------------------------------------------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width:978px) {
+	.holding {
+		max-width: 978px;
+	}
+}
+
+@media screen and (max-width:650px) {
+	.scrollable {
+		display: block;
+		width: 100%;
+		margin: 0 0 30px 0;
+		padding: 0 0 15px 0;
+		overflow: auto;
+		overflow-x: scroll;
+	}
+	.scrollable table {
+		margin: 0;
+		padding: 0;
+		white-space: nowrap;
+	}
+}

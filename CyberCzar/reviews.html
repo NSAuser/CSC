@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Reviews</title>
+  <meta charset="utf-8">
+  <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+  <link rel="shortcut icon" href="images/czaricon.ico">
+  <meta name="Author" content="Haris Masic">
+</head>
+
+<body>
+  <div class="holding level0">
+    <div id="topbar" class="clear">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="holding level1">
+    <header id="header" class="clear">
+      <div id="logo" class="con_left">
+        <h1><a href="index.html">Cyber Czar Corp.</a></h1>
+        <p>Cyber-Security Consultation Firm</p>
+      </div>
+      <div class="con_right">
+        <div>
+          <fieldset>
+            <legend>Search:</legend>
+            <div class="formDIV">
+              <input type="text" id="serchbor" placeholder="Search">
+              <button class="serchbar" type="submit" onclick="searchegg()" title="Search"><em>Search</em></button>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </header>
+  </div>
+  <br>
+  <div class="holding level3">
+    <div class="rounded">
+      <main class="container clear">
+        <div class="f1rst">
+          <h1 class="reviewtitle">Reviews</h1>
+          <div class="reviewalign">
+            <ul class="bitz listing" id="valuez">
+              <li class="clear">
+                <div class="imgl borderedbox"><img src="images/user1.png" alt="NSAuser"></div>
+                <p class="bitz zehmethod"><a class="user" href="https://www.codeschool.com/users/NSAuser" target="_blank">NSAuser</a></p>
+                <p>Noice website!</p>
+              </li>
+              <li class="clear">
+                <div class="imgl borderedbox"><img src="images/user2.jpg" alt="GiraffeKnee"></div>
+                <p class="bitz zehmethod"><a class="user" href="https://www.codeschool.com/users/GiraffeKnee" target="_blank">GiraffeKnee</a></p>
+                <p>Oh, and when I feel like having dessert, I either get an apple pie or an Oreo McFlurry. Recently, as part of their promo, they have this green tea flavoured Oreo! I haven't grown tired of choosing from these food choices in their menu.
+                  Also site be garbage</p>
+              </li>
+              <li class="clear">
+                <div class="imgl borderedbox"><img src="images/user3.jpg" alt="MamasNinjaBoy27"></div>
+                <p class="bitz zehmethod"><a class="user" href="#">MamasNinjaBoy27</a></p>
+                <p>I’m angry right now. Angry that it’s 2016 and Android smartphone performance can still be awful. Furious that we’re approaching the 10th anniversary of the iPhone and Apple’s competitors still don’t get... <a class="linko" href="#">Read Full Review</a></p>
+              </li>
+            </ul>
+          </div>
+          <br>
+          <form class="revform">
+            <div class="addrevbox">
+              <div id="urlstop">
+                <div class="nickcolor">Nickname:
+                  <div><input placeholder="username" type="text" maxlength="20" name="nickname" id="nickn"><button class="subrev" onClick="add()" align="right"><span onClick="add()">Submit Review ⇧</span></button><br><br>
+                    <div class="revcolor">Review: </div><textarea rows="4" cols="56" maxlength="256" id="reviewer"></textarea> <a class="revlogin" href="login.html">Login</a>
+                  </div>
+          </form>
+          </div>
+          </div>
+          </div>
+      </main>
+      </div>
+      <br>
+      <div class="group" id="revcopyr">
+        <h2>COPYRIGHT INFORMATION</h2>
+        <div>
+          <ul class="bitz">
+            <li class="copyright"><img src="images/worldmap.png">United States, ©2016 Cyber Czar Corporation</li>
+          </ul>
+        </div>
+        <script src="scripts/czjquery.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+</body>
+
+</html>
