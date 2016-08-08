@@ -755,6 +755,81 @@
 }
 
 
+/* Mission
+-------------------------------------------------------------------------------------------------------------- */
+
+#missionDesc {
+	text-align: center;
+	position: absolute;
+	top: 180px;
+	background-color: white;
+	width: 100%;
+	color: black;
+	height: 600px;
+}
+
+#bordMove {
+	border-radius: 0px;
+	left: 0px;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	top: 75px;
+	position: absolute;
+	z-index: 0;
+	margin: 0 auto;
+	border: 8px solid #C0C0C0;
+	border-top: 8px solid #000080;
+	width: 500px;
+	height: 0px;
+}
+
+#missionTitle {
+	z-index: 2;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	font-size: 48px;
+	font-family: sans-serif;
+}
+
+#missBoxText {
+	margin: 0 auto;
+	width: 800px;
+}
+
+#missText {
+	text-align: center;
+	width: 800px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-top: 100px;
+}
+
+.groupMiss {
+	padding: 5px;
+	position: absolute;
+	width: 100%;
+	background-color: white;
+	color: black;
+	bottom: 0;
+	height: 150px;
+}
+
+.parallax {
+	background-image: url("http://alpina.websitewelcome.com/~glennr2i/images/cyber-secuirty.jpg");
+	height: 600px;
+	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
 /* Rounded Corners
 --------------------------------------------------------------------------------------------------------------- */
 
